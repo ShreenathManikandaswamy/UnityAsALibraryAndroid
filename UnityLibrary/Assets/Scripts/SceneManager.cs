@@ -39,8 +39,7 @@ public class SceneManager : MonoBehaviour
     {
         AndroidJavaClass androidJC = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject jo = androidJC.GetStatic<AndroidJavaObject>("currentActivity");
-        AndroidJavaClass jc = new AndroidJavaClass("com.uaal.nativeandroid.UnityHandlerActivity");
-        jc.CallStatic("Launch", "Works");
+        jo.CallStatic("Launch", "Works");
     }
 
 
