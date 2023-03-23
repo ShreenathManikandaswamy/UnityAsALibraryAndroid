@@ -3,6 +3,7 @@ package com.uaal.nativeandroid;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,5 +33,10 @@ public class UnityHandlerActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public static void Launch(String value)
+    {
+        Log.d("Unity", "Inside Launch " + value);
     }
 }

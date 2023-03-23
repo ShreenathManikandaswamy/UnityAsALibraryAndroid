@@ -13,6 +13,18 @@
             "name": "com.google.android.apps.nexuslauncher",
             "processId": 1173,
             "exited": false
+        },
+        {
+            "deviceId": "emulator-5554",
+            "name": "com.uaal.nativeandroid",
+            "processId": 11140,
+            "exited": true
+        },
+        {
+            "deviceId": "emulator-5554",
+            "name": "com.uaal.nativeandroid",
+            "processId": 11404,
+            "exited": false
         }
     ],
     "m_Tags": {
