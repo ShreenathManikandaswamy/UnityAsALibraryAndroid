@@ -46463,6 +46463,8 @@ struct SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821  : public MonoBeha
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___intentsParent_5;
 	// System.Collections.Generic.List`1<System.String> SceneManager::intents
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___intents_6;
+	// System.Int32 SceneManager::count
+	int32_t ___count_7;
 };
 
 // System.Reflection.SignatureArrayType

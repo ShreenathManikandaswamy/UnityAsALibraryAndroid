@@ -11,7 +11,7 @@ public class SceneManager : MonoBehaviour
     private Transform intentsParent;
 
     private List<string> intents;
-
+    private int count = 0;
 
     private void Awake()
     {
@@ -42,9 +42,10 @@ public class SceneManager : MonoBehaviour
 
     public void LoadAndroidActivity()
     {
+        count++;
         AndroidJavaClass androidJC = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject jo = androidJC.GetStatic<AndroidJavaObject>("currentActivity");
-        jo.Call("Launch", "Works");
+        jo.Call("Launch", "Received data from unity. Count = " + count);
     }
 
 

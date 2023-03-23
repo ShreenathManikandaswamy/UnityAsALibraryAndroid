@@ -6623,6 +6623,8 @@ struct SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821  : public MonoBeha
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___intentsParent_5;
 	// System.Collections.Generic.List`1<System.String> SceneManager::intents
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___intents_6;
+	// System.Int32 SceneManager::count
+	int32_t ___count_7;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -7604,9 +7606,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3457[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3462[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3465[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3465[4] = 
 {
-	static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intentText_4)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intentsParent_5)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intents_6)),};
+	static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intentText_4)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intentsParent_5)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___intents_6)),static_cast<int32_t>(offsetof(SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821, ___count_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3469[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

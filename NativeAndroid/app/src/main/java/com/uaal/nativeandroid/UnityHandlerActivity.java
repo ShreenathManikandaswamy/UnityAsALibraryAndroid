@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.unity3d.player.UnityPlayerActivity;
 
@@ -33,6 +34,11 @@ public class UnityHandlerActivity extends AppCompatActivity {
                 }
             }
         });
+
+        TextView receiver = findViewById(R.id.received_value_id);
+        Intent intent = getIntent();
+        String str = intent.getStringExtra("message_key");
+        receiver.setText(str);
     }
 
     public static void Launch(String value)

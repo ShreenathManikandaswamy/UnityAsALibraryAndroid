@@ -49,6 +49,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         try {
             Intent intent = new Intent(this,
                     Class.forName("com.uaal.nativeandroid.UnityHandlerActivity"));
+            intent.putExtra("message_key", value);
             startActivity(intent);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
