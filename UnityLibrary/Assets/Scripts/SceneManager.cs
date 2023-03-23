@@ -35,6 +35,11 @@ public class SceneManager : MonoBehaviour
                 Application.Quit();
     }
 
+    public void QuitUnity()
+    {
+        Application.Quit();
+    }
+
     public void LoadAndroidActivity()
     {
         AndroidJavaClass androidJC = new AndroidJavaClass("com.unity3d.player.UnityPlayer");

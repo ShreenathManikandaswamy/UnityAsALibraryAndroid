@@ -2304,6 +2304,16 @@ IL_0017:
 		return;
 	}
 }
+// System.Void SceneManager::QuitUnity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_QuitUnity_mA6093420E9CFB6A37C8E3CA0874BA3C6E8B36D6E (SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821* __this, const RuntimeMethod* method) 
+{
+	{
+		// Application.Quit();
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		// }
+		return;
+	}
+}
 // System.Void SceneManager::LoadAndroidActivity()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadAndroidActivity_m91A5F79AE81F48E80FB04476CA325ABEB88619A9 (SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821* __this, const RuntimeMethod* method) 
 {

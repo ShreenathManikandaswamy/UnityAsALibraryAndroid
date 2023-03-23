@@ -46,6 +46,13 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     public void Launch(String value)
     {
         Log.d("Unity", "Inside Launch " + value);
+        try {
+            Intent intent = new Intent(this,
+                    Class.forName("com.uaal.nativeandroid.UnityHandlerActivity"));
+            startActivity(intent);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     // When Unity player unloaded move task to background
