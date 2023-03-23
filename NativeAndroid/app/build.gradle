@@ -4,19 +4,19 @@ plugins {
 
 android {
     namespace 'com.uaal.nativeandroid'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.uaal.nativeandroid"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         ndk {
-            abiFilters "arm64-v8a", "armeabi-v7a"
+            abiFilters "arm64-v8a", "armeabi-v7a", "x86", "x86_64"
         }
     }
 
