@@ -43,7 +43,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         mUnityPlayer.requestFocus();
     }
 
-    public static void Launch(String value)
+    public void Launch(String value)
     {
         Log.d("Unity", "Inside Launch " + value);
     }
